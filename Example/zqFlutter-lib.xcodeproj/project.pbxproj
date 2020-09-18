@@ -192,10 +192,16 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-zqFlutter-lib_Tests/Pods-zqFlutter-lib_Tests-frameworks.sh",
+				"${PODS_ROOT}/../../zqf_framework/App.framework",
+				"${PODS_ROOT}/../../zqf_framework/Flutter.framework",
+				"${PODS_ROOT}/../../zqf_framework/shared_preferences.framework",
 				"${BUILT_PRODUCTS_DIR}/zqFlutter-lib/zqFlutter_lib.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/App.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Flutter.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/shared_preferences.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/zqFlutter_lib.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

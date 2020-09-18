@@ -1,0 +1,16 @@
+PODS:
+  - zqFlutter-lib (0.1.0)
+
+DEPENDENCIES:
+  - zqFlutter-lib (from `../`)
+
+EXTERNAL SOURCES:
+  zqFlutter-lib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  zqFlutter-lib: 863611c6d0700c49815bf9708b9ad15d1f8a9640
+
+PODFILE CHECKSUM: bc40c08a0881628d0c6b845787f705e12042165a
+
+COCOAPODS: 1.9.0.beta.3

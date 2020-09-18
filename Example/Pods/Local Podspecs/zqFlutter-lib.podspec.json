@@ -1,0 +1,31 @@
+{
+  "name": "zqFlutter-lib",
+  "version": "0.1.0",
+  "summary": "A short description of zqFlutter-lib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/yangsui92@163.com/zqFlutter-lib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "yangsui92@163.com": "yangsui92@163.com"
+  },
+  "source": {
+    "git": "https://github.com/yangsui92@163.com/zqFlutter-lib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "zqFlutter-lib/Classes/**/*",
+  "ios": {
+    "vendored_frameworks": [
+      "zqf_framework/App.framework",
+      "zqf_framework/Flutter.framework",
+      "zqf_framework/FlutterPluginRegistrant.framework",
+      "zqf_framework/shared_preferences.framework",
+      "zqf_framework/Pods_Runner.framework"
+    ]
+  }
+}
