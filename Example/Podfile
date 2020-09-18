@@ -1,0 +1,6 @@
+use_frameworks!
+target 'zqFlutter-lib_Tests' do
+  pod 'zqFlutter-lib', :path => '../'
+  
+  
+end
